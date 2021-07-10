@@ -29,13 +29,58 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Text(
-                'Software Engineer',
+                'SOFTWARE ENGINEER',
                 style: TextStyle(
                   fontFamily: 'SourceSansPro',
                   fontSize: 20.0,
                   color: Colors.teal[100],
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                color: Colors.white,
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      '+62 80989999',
+                      style: TextStyle(
+                        color: Colors.teal,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                color: Colors.white,
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.mail,
+                      color: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 10.0,
+                    ),
+                    Text(
+                      'email@adirizka7.github',
+                      style: TextStyle(
+                        color: Colors.teal,
+                        fontFamily: 'SourceSansPro',
+                      ),
+                    )
+                  ],
                 ),
               ),
             ],
